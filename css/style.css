@@ -671,7 +671,7 @@ gap: 40px;
   }
 
   .madal-click:focus {
-    color: var(--color-stile);
+    background-color: var(--color-stile);
     border: none;
     fill: var(--color-non);
   }
@@ -778,7 +778,7 @@ gap: 40px;
     color: var(--color-light-slate);
   }
 
-  .input-box:checked + .span-modal-box{
+  .input-box:checked + .label-box{
     background-color: var(--color-stile);
     border: none;
     fill: var(--color-secondary);
