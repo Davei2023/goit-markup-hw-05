@@ -348,7 +348,76 @@
                         </li>
                     </ul>
             </div>
+            <div class="foter-modal">
+                <p class="info-form">Subscribe</p>
+                <form class="modal-form">
+                    <label class="modal-label-foter">
+                        <input class="input-modal-foter" type="name" type="email" placeholder="E-mail">
+                    </label>
+                    <button class="click-modal-form" type="submit" data-modal-open>Subscribe
+                        <svg class="svg-modal-foter" width="24" height="24">
+                            <use href="./images/modal-spryte.svg#icon-frame"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
+    <div class="backdrop is-hide" data-modal>
+        <div class="modal">
+            <button class="madal-click" type="button">
+                <svg class="button-icon-svg"  width="8"  height="8">
+                    <use class="svg-fil-modal" href="./images/modal-spryte.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <p class="tabl-modal">Leave your contacts and we will call you back</p>
+            <form class="form-modal">
+                <div class="div-modal-form">
+                    <label class="label-modal" for="user-name">Name</label>
+                    <div class="text-modal">
+                        <input class="tabl-input" id="user-name" type="text">
+                        <svg class="phone-svg" width="18" height="24">
+                            <use href="./images/modal-spryte.svg#icon-person-black"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="div-modal-form">
+                    <label class="label-modal" for="tour-phone">Phone</label>
+                    <div class="text-modal">
+                        <input class="tabl-input" id="your-phone" type="number">
+                        <svg class="phone-svg" width="18" height="24">
+                            <use href="./images/modal-spryte.svg#icon-phone-black"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="div-modal-form">
+                    <label class="label-modal" for="your-email">Email</label>
+                    <div class="text-modal">
+                        <input class="tabl-input" id="your-email" type="email">
+                        <svg class="phone-svg" width="18" height="24">
+                            <use href="./images/modal-spryte.svg#icon-email-black"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="div-coment">
+                    <label class="label-modal" for="user-comment">Comment</label>
+                    <textarea class="coment-user" id="user-comment" placeholder="Text input"></textarea>
+                </div>
+                <div class="div-box">
+                    <input class="input-box visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy">
+                    <label class="label-box" for="user-privacy"> I accept the terms and conditions of the
+                        <span class="span-modal-box">
+                            <svg class="svg-span-box" width="10" height="8">
+                                <use href="./images/modal-spryte.svg#icon-checkbox">
+                                </use>
+                            </svg>
+                        </span>
+                        <a class="link-modal" href="">Privacy Policy</a>
+                    </label>
+                </div>
+                <button class="button-modal" type="button">Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
